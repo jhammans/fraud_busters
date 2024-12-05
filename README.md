@@ -68,8 +68,10 @@ The dataset used for this project was sourced from **Kaggle**, a platform provid
 
 ## Visualization
 Below are examples of the dashboards created using Tableau:
-- **Dashboard 1**: Transaction Trends and Fraud Distribution.
-- **Dashboard 2**: Fraud Analysis by Demographics and Professions.
+- **Dashboard 1**: <img width="1230" alt="Screenshot 2024-12-05 at 5 40 52 PM" src="https://github.com/user-attachments/assets/faff5bc0-f6e9-4f2f-9f7c-3ab85d2d7c0a">
+.
+- **Dashboard 2**: <img width="1230" alt="Screenshot 2024-12-05 at 5 40 22 PM" src="https://github.com/user-attachments/assets/749bc691-a20c-45fd-ac7b-42f9b0425d4d">
+
 
 ---
 
@@ -95,3 +97,28 @@ To facilitate database management, a configuration file (`config_template.json`)
     }
 }
 ```
+# Results
+- **Random Forest Model**: Achieved high accuracy due to its ability to handle large datasets and imbalanced classes effectively.
+- **Deep Learning Model**: Demonstrated robust fraud detection in complex patterns.
+- **K-Means Clustering Model**: Provided valuable insights into anomalies, despite being unsupervised.
+
+# Conclusion
+This project successfully demonstrates how machine learning, visualization tools, and database management can enhance fraud detection in financial transactions. The combination of predictive models, actionable insights, and efficient data handling aims to reduce the financial losses caused by credit card fraud.
+
+# Contributors
+- **Manahil Rashid** – [manahilr701@gmail.com](mailto:manahilr701@gmail.com)
+- **Andrew Sanchez** – [agsanchez2022@gmail.com](mailto:agsanchez2022@gmail.com)
+- **David Bui** – [davidnbui@yahoo.com](mailto:davidnbui@yahoo.com)
+- **Jeff Hammans** – [hef1125@hotmail.com](mailto:hef1125@hotmail.com)
+- **Deelan Patel** – [deelanp93@gmail.com](mailto:deelanp93@gmail.com)
+
+# Files
+### Code:
+- `RandomForestClassifier.ipynb`
+- `load_fraud_busters_mongodb.ipynb`
+
+### Configuration:
+- `config_template.json`
+
+### Visualizations:
+- Dashboards (see screenshots above)
