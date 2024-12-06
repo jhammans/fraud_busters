@@ -1,0 +1,17 @@
+{
+    "postgres_connection": {
+        "user": "",
+        "password": "",
+        "server": "",
+        "port": ""
+    },
+    "mongodb_cluster": {
+        "user": "",
+        "password": "",
+        "server": ""
+    },
+    "mongodb_local": {
+        "user": "",
+        "password": ""
+    }
+}
