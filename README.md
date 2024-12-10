@@ -26,10 +26,6 @@ The aim of this project is to develop and evaluate machine learning models to de
   - Fraud intensity by category.
   - Demographic analysis.
 
-### Database Configuration and ETL:
-- A configuration template (`JSON format`) for connecting to **PostgreSQL** and **MongoDB** databases.
-- A script for loading data into MongoDB, demonstrating how fraud data is stored and managed.
-
 ---
 
 ## Project Workflow
@@ -43,11 +39,7 @@ The aim of this project is to develop and evaluate machine learning models to de
 3. **Visualization**:
    - Use Tableau to create dashboards for insights into fraud patterns.
 
-4. **Database Management**:
-   - Leverage a JSON configuration file to ensure secure and seamless database connections.
-   - Use an ETL pipeline to load fraud data into MongoDB for efficient storage and retrieval.
-
-5. **Evaluation**:
+4. **Evaluation**:
    - Compare model performance using metrics like accuracy, precision, recall, and F1 score.
 
 ---
@@ -55,8 +47,6 @@ The aim of this project is to develop and evaluate machine learning models to de
 ## Tools and Technologies
 - **Python**: Data preprocessing, model training, and evaluation.
 - **Tableau**: For data visualization.
-- **MongoDB**: For NoSQL database management.
-- **PostgreSQL**: For relational database management.
 - **Libraries**: Scikit-learn, TensorFlow/Keras, Matplotlib, Pandas, NumPy.
 
 ---
@@ -72,31 +62,8 @@ Below are examples of the dashboards created using Tableau:
 .
 - **Dashboard 2**: <img width="1230" alt="Screenshot 2024-12-05 at 5 40 22 PM" src="https://github.com/user-attachments/assets/749bc691-a20c-45fd-ac7b-42f9b0425d4d">
 
-
 ---
 
-## Database Configuration
-To facilitate database management, a configuration file (`config_template.json`) was created, which includes placeholders for securely connecting to **PostgreSQL** and **MongoDB** clusters:
-
-```json
-{
-    "postgres_connection": {
-        "user": "",
-        "password": "",
-        "server": "",
-        "port": ""
-    },
-    "mongodb_cluster": {
-        "user": "",
-        "password": "",
-        "server": ""
-    },
-    "mongodb_local": {
-        "user": "",
-        "password": ""
-    }
-}
-```
 # Results
 - **Random Forest Model**: Achieved high accuracy due to its ability to handle large datasets and imbalanced classes effectively.
 - **Deep Learning Model**: Demonstrated robust fraud detection in complex patterns.
@@ -114,11 +81,7 @@ This project successfully demonstrates how machine learning, visualization tools
 
 # Files
 ### Code:
-- `RandomForestClassifier.ipynb`
-- `load_fraud_busters_mongodb.ipynb`
-
-### Configuration:
-- `config_template.json`
+- `RandomForestClassifierCombined.ipynb`
 
 ### Visualizations:
 - Dashboards (see screenshots above)

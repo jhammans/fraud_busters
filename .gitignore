@@ -80,6 +80,12 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+RandomForestClassifier.ipynb
+credit_card_parquet.ipynb
+load_fraud_busters_mongodb_colab.ipynb
+config_template.json
+utils/
+
 
 # IPython
 profile_default/
